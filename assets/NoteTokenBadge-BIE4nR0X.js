@@ -1,0 +1,1 @@
+import{j as o,P as r}from"./vendor-WQejLG7Y.js";function n({noteType:e}){return o.jsx("div",{className:"bg-[#25272614] inline px-2 rounded-2xl text-gray-900 py-1",children:e})}n.propTypes={noteType:r.oneOf(["Junior","Senior"]).isRequired};export{n as N};

@@ -1,0 +1,1 @@
+import{r as t}from"./vendor-WQejLG7Y.js";import"./index-BUY2Cjej.js";import{b as u}from"./bank.service-B_Z2xVIm.js";const o=()=>{const e=t.useRef(!1);return t.useEffect(()=>(e.current=!0,()=>{e.current=!1}),[]),e},i=()=>{const[e,r]=t.useState(""),n=o();return t.useEffect(()=>{(async()=>{const{walletAddress:s}=await u.getLinkedWallet();n.current&&r(s)})()},[]),e};export{i as u};

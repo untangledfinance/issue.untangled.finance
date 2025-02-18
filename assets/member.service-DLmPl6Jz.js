@@ -1,0 +1,1 @@
+import{r as s}from"./index-BUY2Cjej.js";const c={getWallet:"/api/v1/member/search-wallet"};class l{async getWallet(e,t){const a=await(await s.getRequestInstance()).get(c.getWallet,{params:{memberId:e,companyId:t}}),{data:r}=a;return r}}const o=new l;export{o as m};

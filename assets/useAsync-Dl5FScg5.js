@@ -1,0 +1,1 @@
+import{r as u}from"./vendor-WQejLG7Y.js";import{u as c}from"./useAsyncFn-DMoxp3xu.js";function f(o,r){r===void 0&&(r=[]);var t=c(o,r,{loading:!0}),n=t[0],a=t[1];return u.useEffect(function(){a()},[a]),n}export{f as u};
